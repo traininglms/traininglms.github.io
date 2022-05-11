@@ -1,0 +1,105 @@
+/* général*/
+*
+{margin:0px;
+padding:0px;
+}
+ul{list-style: none;}
+a{text-decoration: none; color:#444;}
+a:hover {background-color: rgb(39, 39, 155); color:cornsilk}
+
+.wrappeur
+{margin:0;}
+body
+{font-family: Arial, sans-serif;
+font-size: 15px;}
+h1{font-size: 2 em;
+color:#444;}
+.orange
+{color: #ff7a00;}
+header
+{height: 160px;font-weight:bold;width:cover;
+  min-width: 712px;
+/*display:inline-block;*/
+}
+header h1
+{/*float:left;*/display:inline-block;
+margin:50px 20px;min-width: 267px;
+}
+header ul
+{float:right; margin-top: 65px;}
+header  ul li{display:inline; margin-right: 15px;}
+
+
+header  ul li a{text-transform: uppercase;}
+#image_princ h2
+{font-size: 60px;
+text-transform: uppercase ;
+font-weight: normal;
+text-align: center;
+/*margin-bottom: 180px;*/
+}
+#image_princ 
+{padding-top: 100px;height: 500px;
+  background: url('imag/article-image-2.jpg')  ; background-size: cover;;
+}
+.bouton
+{font-size:20px ; color:white;border-radius: 10px;
+  display:block center  ;
+width:80px; height:30px; background:orangered; padding: 5px 5px;margin-top: 100px;}
+.bouton:hover {background-color: blue;}
+#steps
+{height:200px;margin-top:10px}
+#steps h3 {text-transform:uppercase; }
+#steps ul
+{float:center;}
+#steps ul li{/*display:inline-block*/ ;width:32%; float:left;padding-right:15px;padding-top: 120px;text-align: center;}
+
+#step1 {background:url('imag/steps-icon-1.png') no-repeat center top; }
+#step2 {background:url('imag/steps-icon-2.png') no-repeat center top; }
+#step3 {background:url('imag/steps-icon-3.png') no-repeat center top ; }
+
+#possibility
+{height:70%;clear: both;display:flex;flex-wrap: wrap;}
+.wrappeur{width:cover;height:400px; background-color: #efefef;margin:20px 0px}
+ article
+{width:590px;float:left; height:300px; background-size:590px 300px;
+  
+   border-radius: 10px 10px 10px 10px;margin: 50px;padding:0px}
+.wrappeur :first-child {margin-right: 15px;}
+.overlay{width:50%;height:100%;background-color: rgb(255,255,225,0.85);text-align: center;
+  border-radius: 10px 0px 0px 10px;}
+article h3{dispaly:inline-block ;margin-left: 60px;margin-right: 60px; width:180px;align-items: center; 
+  padding:20px 0px;text-transform: uppercase;border-bottom: 1px solid orange;
+;}
+/*hr {margin:0% 20%; height: 1px;background-color: orangered;}*/
+
+.overlay p {padding:30px;
+}
+ #bouton2{ border: 2px solid rgb(155, 88, 91); padding:15px 20px;border-radius:10px;background-color: rgb(184, 146, 169);
+
+text-transform: uppercase; font-family: fantasy; font-size: 18px;}
+
+.conteneur1 {padding-top: 150px;
+ width: cover;height: 250px; text-align:center
+}
+.conteneur1 h2{display:inline-block;width:220px; padding-bottom: 20px; border-bottom: 2px solid rgb(0, 140, 255);}
+.conteneur1 p{padding-top: 20px;padding-bottom: 30px;}
+.conteneur1 form:first-child{ margin-right: 25px;}
+.bouton3{/*background-color: blue*/color:blue;padding:10px 10px;font-weight: bold;border:2px solid blue;
+  background-color:yellow; border-radius: 50%;}
+label {font-size:20px;text-transform: capitalize;back}
+input {padding:10px; margin-right: 20px;border-radius: 3px;border:2px solid gray;}
+input[placeholder]{font-size: 18px;}
+
+
+#foot
+{width:cover; height:200px;background-color: rgb(83, 83, 83);text-align: center;padding-top:15px}
+#foot h1{color:white;margin-bottom: 15px;margin-top:10px;/*background-color: greenyellow*/;padding-top: 20px;}
+#foot p{font-size: 10px;color:rgb(189, 190, 186);}
+
+
+@media only screen and (max-width:768px)
+{}
+
+
+
