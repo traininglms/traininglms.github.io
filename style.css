@@ -39,7 +39,7 @@ text-align: center;
 /*margin-bottom: 180px;*/
 }
 #image_princ 
-{padding-top: 100px;height: 500px;
+{padding-top: 100px;height: 500px;width: cover;
   background: url('imag/article-image-2.jpg')  ; background-size: cover;;
 }
 .bouton
@@ -48,11 +48,13 @@ text-align: center;
 width:80px; height:30px; background:orangered; padding: 5px 5px;margin-top: 100px;}
 .bouton:hover {background-color: blue;}
 #steps
-{height:200px;margin-top:10px}
+{height:200px;margin-top:10px;text-align: center;
+  }
+  .conteneur>ul{display:flex;flex-wrap: nowrap;justify-content:center;}
 #steps h3 {text-transform:uppercase; }
-#steps ul
-{float:center;}
-#steps ul li{/*display:inline-block*/ ;width:32%; float:left;padding-right:15px;padding-top: 120px;text-align: center;}
+
+#steps ul li{display:flex;text-align: center;
+  flex-direction:column;flex-wrap:nowrap ;align-content:center;padding-top: 120px;margin-left: 50px;}
 
 #step1 {background:url('imag/steps-icon-1.png') no-repeat center top; }
 #step2 {background:url('imag/steps-icon-2.png') no-repeat center top; }
@@ -60,40 +62,47 @@ width:80px; height:30px; background:orangered; padding: 5px 5px;margin-top: 100p
 
 #possibility
 {height:70%;clear: both;display:flex;flex-wrap: wrap;}
-.wrappeur{width:cover;height:400px; background-color: #efefef;margin:20px 0px}
+.wrappeur{width:100%;height:400px; 
+  display:flex;flex-direction: row;flex-wrap: nowrap;justify-content: center;
+  background-color: #efefef;margin:20px 0px}
  article
-{width:590px;float:left; height:300px; background-size:590px 300px;
+/* {width:590px;float:left; height:300px; background-size:590px 300px; */
+/*  */
+{width: 45%;height:80%;
   
    border-radius: 10px 10px 10px 10px;margin: 50px;padding:0px}
 .wrappeur :first-child {margin-right: 15px;}
-.overlay{width:50%;height:100%;background-color: rgb(255,255,225,0.85);text-align: center;
-  border-radius: 10px 0px 0px 10px;}
-article h3{dispaly:inline-block ;margin-left: 60px;margin-right: 60px; width:180px;align-items: center; 
+
+article h3{/*dispaly:inline-block ;margin-left: 60px;margin-right: 60px; width:180px;align-items: center;  */
   padding:20px 0px;text-transform: uppercase;border-bottom: 1px solid orange;
 ;}
 /*hr {margin:0% 20%; height: 1px;background-color: orangered;}*/
 
-.overlay p {padding:30px;
+.overlay  {display:flex;flex-direction: column;flex-wrap: nowrap;justify-content: space-around;
+  align-items: center;width:50%;height:100%;background-color: rgb(255,255,225,0.85);
+  border-radius: 10px 0px 0px 10px;text-align: center;padding:auto 10px;
 }
  #bouton2{ border: 2px solid rgb(155, 88, 91); padding:15px 20px;border-radius:10px;background-color: rgb(184, 146, 169);
 
-text-transform: uppercase; font-family: fantasy; font-size: 18px;}
+text-transform: uppercase; font-family: fantasy; font-size: 18px;width: 50%;}
 
-.conteneur1 {padding-top: 150px;
- width: cover;height: 250px; text-align:center
+ .conteneur1 {padding-top: 80px;
+ width: cover;height: 250px; text-align: center;
 }
 .conteneur1 h2{display:inline-block;width:220px; padding-bottom: 20px; border-bottom: 2px solid rgb(0, 140, 255);}
 .conteneur1 p{padding-top: 20px;padding-bottom: 30px;}
-.conteneur1 form:first-child{ margin-right: 25px;}
+.conteneur1 form:first-child{ margin-right: 25px;} 
+.conteneur1{display:flex;flex-direction: column;align-items: center;
+  justify-content: space-around;}
 .bouton3{/*background-color: blue*/color:blue;padding:10px 10px;font-weight: bold;border:2px solid blue;
   background-color:yellow; border-radius: 50%;}
 label {font-size:20px;text-transform: capitalize;back}
 input {padding:10px; margin-right: 20px;border-radius: 3px;border:2px solid gray;}
 input[placeholder]{font-size: 18px;}
-
+#formul{display: flex;flex-wrap: nowrap;align-items: center;}
 
 #foot
-{width:cover; height:200px;background-color: rgb(83, 83, 83);text-align: center;padding-top:15px}
+{width:cover; height:200px;background-color: rgb(83, 83, 83);text-align: center;padding-top:15px;margin-top:10px}
 #foot h1{color:white;margin-bottom: 15px;margin-top:10px;/*background-color: greenyellow*/;padding-top: 20px;}
 #foot p{font-size: 10px;color:rgb(189, 190, 186);}
 
